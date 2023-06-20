@@ -1,0 +1,1 @@
+assert 10 > 120, 'The condition is False'

@@ -1,3 +1,4 @@
+"""sample of REST API with restful extension for flask """
 from flask import Flask, request
 from flask_restful import Api, Resource
 
@@ -36,7 +37,7 @@ class TodoSimple(Resource):
 
 class DullClass1(Resource):
     def get(self):
-        # return the dict and a respons code (if not specified = 200) and a custom header 
+        # return the dict and a response code (if not specified = 200) and a custom header 
         return {'key' : 'value'}, 201, {'Etag' : 'custom string'}
 
 api.add_resource(TodoSimple, '/<string:todo_id>')

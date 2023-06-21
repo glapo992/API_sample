@@ -1,3 +1,4 @@
+"""connection example to entry_point.py module"""
 import requests
 import json
 

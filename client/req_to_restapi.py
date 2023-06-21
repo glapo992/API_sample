@@ -1,3 +1,5 @@
+"""connection example to restful_api.py module"""
+
 from requests import put, get
 
 def add_todo():

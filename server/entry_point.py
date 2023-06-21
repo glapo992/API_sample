@@ -11,7 +11,7 @@ class Person:
 		self.surname = surname
 	
 	def __str__(self) -> str:
-		return "hi, I am {} {} :)".format(self.name, self.surname)
+		return "Hi,my name is {} {} :)".format(self.name, self.surname)
 
 
 #---------ENDPOINTS-------------------------------------
